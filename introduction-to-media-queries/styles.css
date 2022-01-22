@@ -29,4 +29,68 @@ div {
     background-color: #f5deb3;
 }
 
-/*** Your code here ***/
+/* ** Your code here **
+@media (min-width:0px) {
+    div{
+        display: block;
+        width:44%;
+        font-size: 4rem;
+    }
+} */
+
+@media (min-width:500px) {
+    div{
+        display: inline-block;
+        width:44%;
+        font-size: 4rem;
+    }
+    #div-1, #div-2 {
+        background-color: #74db70;
+    }
+    #div-3, #div-4 {
+        background-color: #ee0034;
+    }
+}
+
+/** CHALLENGE 
+Add another media query to show 4 divs in one row
+for screens of 900px wide and above**/
+
+@media (min-width:900px) {
+    div{
+        display: inline;
+        width: 44%;
+        font-size: 2rem;
+    }
+    #div-1, #div-2, #div-3, #div-4 {
+        background-color: #dbb970;
+    }
+}
+
+/* @media (min-width:900px) {
+    div{
+        display: inline;
+        width: 44%;
+        font-size: 2rem;
+    }
+    #div-1 {
+        background-color: #dbb970;
+    }
+    #div-2 {
+        background-color: #dbb970;
+    }
+    #div-3 {
+        background-color: #dbb970;
+    }
+    
+    #div-4 {
+        background-color: #dbb970;
+    }
+} */
+
+
+/**Change the font size at each breakpoint - ^^^see above **/
+
+
+/**Change the colour of the divs so each row 
+has the same colour divs at each breakpoint **/

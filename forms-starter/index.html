@@ -12,9 +12,28 @@
         <header>
             <h1>Get in touch!</h1>
         </header>
-
-        <form action="" method="">
+        <!-- for forms: https://formspree.io/ log into account a.fredericksen@live.com.au -->
+        <!-- method "post" - how you want data to be handled -->
+        <form action="https://formspree.io/f/xnqwjjen" method="post">
             <!-- your code here -->
+            <div class="form-item">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-item">
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="email">
+                <!-- 'id' should match the 'for' -->
+            </div>
+            <div class="form-item">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+                <!-- 'id' should match the 'for' -->
+            </div>
+            <!-- BUTTON -->
+            <div class="form-item">
+                <button type="submit">Send!</button>
+            </div>
         </form>
 
     </body>

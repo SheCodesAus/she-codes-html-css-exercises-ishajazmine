@@ -1,11 +1,14 @@
 height: 200px;
 background-color: #0099ff;
+^BLUE
 
 width: calc(100% / 2 - 10px);
 display: inline-block;
+^FAT BOX?
 
 height: 75px;
 background-color: #c9c9c9;
+^GREY
 
 height: 200px;
 
@@ -13,11 +16,13 @@ margin: 5px;
 
 width: calc(100% / 4 - 10px);
 height: 200px;
+^SKINNY BOX
 
 height: 150px;
 
 height: 100px;
 background-color: #00bb00;
+^GREEN
 
 width: calc(100% / 3 - 10px);
 display: inline-block;

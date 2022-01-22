@@ -13,6 +13,10 @@ body {
     font-size: 1rem;
     font-weight: bold;
     height: calc(100% - 14px);
+    display: flex;
+    justify-content: space;
+    flex-wrap: wrap;
+    align-content:center;
 }
 
 div {
@@ -21,3 +25,30 @@ div {
 }
 
 /*** Your code here ***/
+.demo-div {
+    flex-grow: 1;
+}
+/* 1,2,3 - always use numbers not percentagews ABOVE - when size changes when you adjust value of how much space things inside container grow/shrink */
+
+#div-6 {
+    flex-grow: 2;
+    order: 1;
+}
+
+/*depends what row the item is on - if on own = full space. if another item next to it will take 2x as much space*/
+
+/*below - manually define width of div - if you have specific width you want columns to be*/
+#div-1{
+    flex-basis: 20%;
+    order: 2;
+}
+/*width will always be 20% all the time*/
+
+#div-2{
+    flex-basis: 100px;
+    order: 3;
+}
+
+/*BELOW: changing ORDER we want things displayed*/
+/*order: ;*/
+/* by default orders any unordered numbers first. then will put ordered numbers*/

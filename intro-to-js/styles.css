@@ -56,7 +56,7 @@ form {
     align-items: center;
     justify-content: center;
 }
-
+1
 #greeting-text {
     height: 20px;
 }
@@ -84,6 +84,6 @@ form {
 }
 
 .on {
-    box-shadow: inset 0 0 150px yellow, 0px 0 30px yellow;
+    box-shadow: inset 0 0 150px palevioletred, 10px 0 30px yellow;
 }
 

@@ -13,7 +13,7 @@ h1 {
     text-align: center;
 }
 
-/*** Media Queries Below ***/
+/*** Media Queries Below - PIXEL IDENTIFIERS ***/ 
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
